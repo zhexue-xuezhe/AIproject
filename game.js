@@ -138,8 +138,8 @@
   const memeBtn    = document.getElementById('memeBtn');
 
   /* 形象风格：fruit(原图蛋) / meme(鬼畜脸) / honor(王者玩偶)
-     默认 honor（用你给的王者玩偶图） */
-  let styleMode = localStorage.getItem(STYLE_KEY) || 'honor';
+     默认 meme（最原始的鬼畜表情包脸） */
+  let styleMode = localStorage.getItem(STYLE_KEY) || 'meme';
 
   /* ---------------------------------------------------------
    *  工具
